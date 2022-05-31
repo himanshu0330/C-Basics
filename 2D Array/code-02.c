@@ -2,19 +2,25 @@
 
 
 #include <stdio.h>
+
 int main()
 {
-    int n;
-    printf("enter no of elements:");
-    scanf("%d",&n);
-    int i,a[n],j,sum_e=0,sum_o=0;
-    printf("input elements");
-    for (i=0;i<n;i++)
-        scanf("%d",&a[i]);
-    int b[n];
-    for (j=0;j<n;j++)
-        b[j]=a[j];
-    for (j=0;j<n;j++)
-        printf("%d\t",b[j]);
+    int data1[3][2];
+    int data2[3][2];
+    for(int i = 0; i<3; i++){
+        for(int j = 0; j<2; j++){
+            scanf("%d", &data1[i][j]);
+        }
+    }
+    for(int i = 0; i<3; i++){
+        for(int j = 0; j<2; j++){
+            data2[i][j] = data1[i][j];
+        }
+    }
+    for(int i = 0; i<3; i++){
+        for(int j = 0; j<2; j++){
+            printf("%d\n", data2[i][j]);
+        }
+    }
     return 0;
 }
