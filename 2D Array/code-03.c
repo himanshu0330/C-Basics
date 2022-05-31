@@ -1,4 +1,4 @@
-//Printing a specific pattern
+//Printing a specific pattern using 2D Arrays
 
 //1
 //11
