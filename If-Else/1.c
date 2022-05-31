@@ -25,6 +25,4 @@ int main()
     {
         printf("Both are equal");
     }
-
-    return 0;
 }
