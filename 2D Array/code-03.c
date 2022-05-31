@@ -1,5 +1,12 @@
 //Printing a specific pattern
 
+//1
+//11
+//121
+//1331
+//14641
+
+
 #include <stdio.h>
 int main()
 {
